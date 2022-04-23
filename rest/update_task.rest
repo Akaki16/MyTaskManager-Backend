@@ -1,0 +1,11 @@
+PUT http://localhost:5000/api/tasks/{task_id}
+Content-Type: application/json
+
+{
+    "title": "{New Task Title}",
+    "duration": "{New Task Duration}",
+    "difficulty": "{New Task Difficulty}",
+    "description": "{New Task Description}",
+    "completed": "{New Task Completed Status}",
+    "id": "{task_id}"
+}
